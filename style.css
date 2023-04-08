@@ -4,17 +4,15 @@ header {
   padding: 20px;
 }
 
-.logo h1 {
-  color: white;
-  margin: 0;
-  padding: 10px;
-  font-size: 30px;
+.logo h1 { 
+	color: #FF0000;
 }
-
 .logo img {
-  height: 50px;
-  margin-right: 10px;
-  vertical-align: middle;
+  height: 200px;
+  margin-right: 0px;
+  margin-left: 180px;
+  vertical-align:middle;
+  
 }
 
 .banner {
@@ -371,17 +369,20 @@ header {
 	background-position: center;
 	width: 300px;
 	height: 90px;
-	float: left;
+	float: flex;
 	cursor: pointer;
 }
 .header-right {
 	float: right;
+	
 }
 .header-menu-button {
 	color: rgb(209, 211, 219);
 	float: right;
 	cursor: pointer;
 	height: 100px;
+	
+	
 }
 .header-menu-button:hover {
 	background-color: rgba(237,28,36,1.0);
@@ -392,7 +393,7 @@ header {
 	font-weight: normal;
 	padding-left: 15px;
 	padding-right: 15px;
-	padding-top: 45px;
+	padding-top: 60px;
 }
 .material-icons {
   font-family: 'Material Icons';
@@ -841,7 +842,7 @@ a:active {
   -webkit-font-smoothing: antialiased;
 }form {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: none;
   grid-gap: 20px;
   padding: 20px;
   border: 2px solid #FF0000;
