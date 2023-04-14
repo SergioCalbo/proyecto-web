@@ -12,9 +12,8 @@ header {
 }
 
 .logo img {
-  height: 50px;
-  margin-right: 10px;
-  vertical-align: middle;
+  width: 100%;
+  background-image: url(imagenes/WhatsApp\ Image\ 2023-04-07\ at\ 22.51.55.jpeg)
 }
 
 .banner {
@@ -132,7 +131,7 @@ header {
     line-height: 24px;
   }
   .div_01-text-small {
-    color: rgba(255,255,255,1.0);
+    color: rgba(237,28,36,1.0);
     font-size: 16px;
     font-weight: lighter;
     line-height: 20px;
@@ -390,8 +389,8 @@ header {
 .header-menu-text {
 	font-size: 20px;
 	font-weight: normal;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
 	padding-top: 45px;
 }
 .material-icons {
@@ -602,6 +601,17 @@ a:active {
 	color: #FFF;
 	font-size: 12px;
 	font-weight: lighter;
+
+}
+
+.parrafos {
+	color: white;
+	line-height: 20px;
+	font-size: 20px;
+	font-weight: lighter;
+	text-align: center;
+
+
 }
 /* cyrillic-ext */
 @font-face {
