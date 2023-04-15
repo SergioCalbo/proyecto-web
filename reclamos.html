@@ -27,32 +27,39 @@
 <div class="header-container">
   <div class="header">
     <div class="logo">
-        <img src="ruta-del-logo-aqui" alt="logo de la empresa">
-        <h1>Cuchillos</h1>
-      </div>
+        <img src="imagenes\WhatsApp Image 2023-04-07 at 22.51.55.jpeg" alt="logo de la empresa">
+        
+      </div>      
     <div class="header-left" onClick="window.location.href='http://www.cuchillos.com.ar'"></div>
+    <div class="header-menu-button" onClick="window.location.href='index.html'">
+      <div class="header-menu-text">Volver</div> </div>
     <div class="header-menu-button" onClick="window.location.href='registrate.html'">
-      <div class="header-menu-text">registrate</div>
+      <div class="header-menu-text">Registrate</div>
     </div>
     <div class="header-menu-button"> <a href="#"><img src="imagenes/pagos-icon.gif" width="50" height="90" border="0" alt="Pagos"/></a></div>
     <div class="header-menu-button" onClick="window.location.href='global.pdf'">
       <div class="header-menu-text">Precios y Stock</div>
     </div>
-    <div class="header-menu-button" onClick="window.location.href='productos.html'">
+      <div class="header-menu-button" onClick="window.location.href='productos.html'">
       <div class="header-menu-text">Productos</div>
     </div>
     <div class="header-menu-button" onClick="window.location.href='Reclamos.html'">
         <div class="header-menu-text">Reclamos</div>
-  </div>
-</div>
-</div>
+    </div>
+    </div> 
+    </div> 
+    
+    
+    
+           
+
 <title>Formulario de reclamos y devoluciones</title>
 <form id="formulario" onsubmit="return validarFormulario()">
     <label for="nombre">Nombre completo:</label>
     <input type="text" id="nombre" name="nombre" required>
 
     <label for="email">Correo electrónico:</label>
-    <input type="email" id="email" name="email" required>
+    <input type="text" id="email" name="email" required>
 
     <label for="motivo">Motivo del reclamo o devolución:</label>
     <select id="motivo" name="motivo" required>
