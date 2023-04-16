@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html style="width: 100%; height: 100%;" leng="es">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-egde">
+<meta name="viewport" content="width=device-width, inicial-scale=1.0">
+<title>GF Series - Catalogo Cuchillos </title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.0.0/jspdf.umd.min.js"></script>
+<meta name="description" content="Conozca el catalogo de Cuchillos .">
+<meta name="keywords" content="CUCHILLOS">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.gif" type="image/gif">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link href="css/body.css" rel="stylesheet" type="text/css">
+<link href="css/header.css" rel="stylesheet" type="text/css">
+<link href="css/header-bottom.css" rel="stylesheet" type="text/css">
+<link href="css/icons.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/submenu.css" rel="stylesheet" type="text/css">
+<link href="css/text.css" rel="stylesheet" type="text/css">
+<link href="css/text-box.css" rel="stylesheet" type="text/css">
+<link href="css/div_01.css" rel="stylesheet" type="text/css">
+<link href="css/div_banner.css" rel="stylesheet" type="text/css">
+<link href="css/div_03.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <body style="width: 100%; height: 100%;">
+        <div class="header-container">
+          <div class="header">
+            <div class="logo">
+                <img img src="imagenes/WhatsApp Image 2023-04-07 at 22.51.55.jpeg">
+              </div>
+            <div class="header-left" onClick="window.location.href='http://www.cuchillos.com.ar'"></div>
+            <div class="header-menu-button" onClick="window.location.href='registrate.html'">
+              <div class="header-menu-text">Registrate</div>
+            </div>
+            <div class="header-menu-button"> <a href="#"><img src="imagenes/pagos-icon.gif" width="50" height="90" border="0" alt="Pagos"/></a></div>
+            <div class="header-menu-button" onClick="window.location.href='indexpdf'">
+              <div class="header-menu-text">Precios y Stock</div>
+            </div>
+            <div class="header-menu-button" onClick="window.location.href='productos.html'">
+              <div class="header-menu-text">Productos</div>
+            </div>
+            <div class="header-menu-button" onClick="window.location.href='Reclamos.html'">
+                <div class="header-menu-text">Reclamos</div>
+          </div>
+          <div class="header-menu-button" onClick="window.location.href='Quienes.html'">
+            <div class="header-menu-text">Quienes somos</div>
+          </div>
+        </div>
+        </div>
+
+        <script>
+            console.log ("lista");
+            window.jsPDF = window.jspdf.jsPDF;
+            var doc= new jsPDF ('p','cm', 'letter');
+            doc.text(20, 20, "Lista de Precios");
+            var text= 'Lista de Precios Abril - Mayo 2023: Carving tenedor Straight $5000, - Cuchillo Global GF-27 Butcher 16cm $6500 -  Cuchillo Global GF-31 Boning16cm $7500 - Cuchillo Global GF-32 Chefs 16cm $8000 - Cuchillo Global GF-33 Chefs 21cm $9500 - Cuchillo Global GF-34 Chefs 27cm $10000- Cuchillo Global GF-35 Chefs 30cm $12000 - Cuchillo Global GF-36 Vegetable 18cm $8500 - Cuchillo Global GF-37 Carving 22cm $9000 - Cuchillo Global GF-40 Boning Wide 15cm $9700 - Cuchillo Global GF-43	Vegetable 20cm $10500';
+            doc.text(text, 1, 5, {align: 'justify',lineHeightFactor: 1.5,maxWidth:18})
+            doc.save('a4.pdf');
+            
+          </script>
+
+
+</html>
